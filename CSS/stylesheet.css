@@ -1,0 +1,93 @@
+body
+{
+	background-color: silver;
+}
+
+header
+{
+	padding:1%;
+	width:100%;
+	text-align:center;
+}
+
+main
+{
+	padding:1%;
+	width:100%;
+}
+
+h1, h2 /* Utilisation de la police que je viens de définir sur les titres */
+{
+    font-family: 'LearningCurveProRegular', Arial, serif;
+}
+
+h1
+{
+	text-align: center;
+	text-shadow: 2% 2% 4% black;
+}
+h2
+{
+	color: maroon;
+}
+
+p
+{
+	color: blue;
+}
+
+footer h3 p
+{
+	color:black;
+}
+
+ul li
+{
+	list-style-type:none;
+	color:black;
+}
+aside
+{
+	margin:2%;
+    padding:1%;
+}
+section
+{
+	width:19%;
+	vertical-align:top;
+    display:inline-block;
+    box-sizing:border-box;
+	margin-left:10%;
+    padding:1%;
+}
+.liseret
+{
+	position: absolute;
+    width: 135px;
+	height:95%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.introduction
+{
+	text-align: center;
+}
+	
+.imageflottante
+{
+	float:right;
+	border-right:0,5%;
+}
+
+.dessous
+{
+	clear: both;
+}
+.coordonnees
+{
+	text-align:center;
+	width:100%;
+	display:inline-block;
+}
